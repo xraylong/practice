@@ -152,7 +152,7 @@ in it
 <br>
 <a href="#top">Back to the top</a> <!-- Call upon h1 ID called "top", goes back to element which is on top-->
 
-
+Copyright <?php $date = date('Y'); $date = $date + 1; echo $date; ?>
 
 
 <script src="javascript.js"></script>	
