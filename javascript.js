@@ -20,6 +20,19 @@ console.log(1 + 1 == 2 || 10 * 4 > 50); //one expression is true. with "or" oper
 console.log(true ? 1 : 2);
 // → 1
 console.log(false ? 1 : 2);
+
+const power = function(base, exponent) {  //
+  let result = 1;
+  for (let x = 0; x < exponent; x++) {
+    result *= base
+  }
+  return result;
+};
+
+console.log(power(2, 10));
+
+
+// → 1024
 // → 2
 /* let theNumber = Number(prompt("Pick a number"));
 if (!Number.isNaN(theNumber)) {                        //if number is not a non-number, return square root of number, else, ask them why they didn't give number
